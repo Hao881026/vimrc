@@ -96,7 +96,7 @@ function! s:NextColor(how, echo_color)
 endfunction
 
 nnoremap <F12> :call NextColor(1)<CR>
-nnoremap <F11> :call NextColor(-1)<CR>
+nnoremap <S-F12> :call NextColor(-1)<CR>
 nnoremap <A-F12> :call NextColor(0)<CR>
 
 " Set color scheme according to current time of day.
